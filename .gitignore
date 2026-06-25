@@ -1,0 +1,27 @@
+gitignore
+# Dependencias
+node_modules/
+*/node_modules/
+
+# Variables de entorno (NUNCA subir contraseñas)
+.env
+*/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build
+dist/
+*/dist/
+
+# Editor
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Temporales
+generar-hash.js
